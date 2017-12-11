@@ -1,0 +1,6 @@
+model_checkpoint_path: "chatbot-39900"
+all_model_checkpoint_paths: "chatbot-39500"
+all_model_checkpoint_paths: "chatbot-39600"
+all_model_checkpoint_paths: "chatbot-39700"
+all_model_checkpoint_paths: "chatbot-39800"
+all_model_checkpoint_paths: "chatbot-39900"

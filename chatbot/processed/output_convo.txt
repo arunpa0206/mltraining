@@ -1,0 +1,106 @@
+HUMAN ++++ Hi
+BOT ++++ what .
+HUMAN ++++ I am coming
+BOT ++++ what .
+HUMAN ++++ How are you?
+BOT ++++ i .
+HUMAN ++++ yes
+BOT ++++ what .
+HUMAN ++++ I am here
+BOT ++++ what .
+HUMAN ++++ How are you doing?
+BOT ++++ i .
+HUMAN ++++ Where are you?
+BOT ++++ i .
+HUMAN ++++ I love this
+BOT ++++ i .
+HUMAN ++++ What is your name?
+BOT ++++ i .
+HUMAN ++++ exit
+BOT ++++ what .
+=============================================
+HUMAN ++++ Hi
+BOT ++++ you '
+HUMAN ++++ okay
+BOT ++++ you ?
+HUMAN ++++ good
+BOT ++++ you ?
+HUMAN ++++ Arun
+BOT ++++ 
+HUMAN ++++ I am Arun
+BOT ++++ you '
+HUMAN ++++ Yes
+BOT ++++ you ?
+HUMAN ++++ How are you?
+BOT ++++ no '
+HUMAN ++++ Why no?
+BOT ++++ i '
+HUMAN ++++ What is this garbage?
+BOT ++++ i '
+HUMAN ++++ WHere in India are you?
+BOT ++++ no '
+HUMAN ++++ Are you in India
+BOT ++++ i '
+=============================================
+HUMAN ++++ Hello
+BOT ++++ 
+HUMAN ++++ Hi
+BOT ++++ you '
+HUMAN ++++ good
+BOT ++++ you ?
+HUMAN ++++ I am Arun
+BOT ++++ you '
+HUMAN ++++ Your good name?
+BOT ++++ i .
+HUMAN ++++ I am going
+BOT ++++ you '
+HUMAN ++++ me
+BOT ++++ you ?
+HUMAN ++++ what
+BOT ++++ you '
+HUMAN ++++ ++++ hi
+BOT ++++ you '
+HUMAN ++++ ++++ how are you?
+BOT ++++ no '
+=============================================
+HUMAN ++++ ++++Hi
+BOT ++++ i '
+HUMAN ++++ HI
+BOT ++++ what ?
+HUMAN ++++ hey
+BOT ++++ 
+HUMAN ++++ hi
+BOT ++++ what ?
+HUMAN ++++ you fool
+BOT ++++ what ?
+HUMAN ++++ hi
+BOT ++++ what ?
+HUMAN ++++ hello
+BOT ++++ 
+HUMAN ++++ hi
+BOT ++++ what ?
+HUMAN ++++ I am coming
+BOT ++++ what ?
+HUMAN ++++ coming to india
+BOT ++++ what ?
+HUMAN ++++ what?
+BOT ++++ what .
+HUMAN ++++ What
+BOT ++++ 
+HUMAN ++++ what
+BOT ++++ 
+HUMAN ++++ where are you?
+BOT ++++ i .
+=============================================
+HUMAN ++++ hi
+BOT ++++ i ' s .
+HUMAN ++++ i
+BOT ++++ i ' s .
+HUMAN ++++ How are you?
+BOT ++++ yeah .
+HUMAN ++++ Where are you?
+BOT ++++ yeah .
+HUMAN ++++ Who is PMO?
+BOT ++++ yeah .
+=============================================
+=============================================
