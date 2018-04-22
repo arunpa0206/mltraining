@@ -21,13 +21,13 @@ colors = 10*["g","r","c","b","k"]
 
 class Mean_Shift:
     def __init__(self, radius=4):
-        self.radius = radius
+        self.radius = radius#Initial cluster radius
 
     def fit(self, data):
         centroids = {}
 
         for i in range(len(data)):
-            centroids[i] = data[i]
+            centroids[i] = data[i]#Every datapoint is clusteroid
 
         while True:
             new_centroids = []
@@ -36,8 +36,8 @@ class Mean_Shift:
                 centroid = centroids[i]
                 for featureset in data:
                     if np.linalg.norm(featureset-centroid) < self.radius:
-                        in_bandwidth.append(featureset)
-
+                        in_bandwidth.append(featureset)#Add features within bandwidth to cluster
+                #Calculate new clusteroids
                 new_centroid = np.average(in_bandwidth,axis=0)
                 new_centroids.append(tuple(new_centroid))
 
@@ -57,6 +57,7 @@ class Mean_Shift:
                 if not optimized:
                     break
 
+            #If centeroids are not moving                
             if optimized:
                 break
 

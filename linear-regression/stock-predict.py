@@ -10,7 +10,7 @@ import datetime
 style.use('ggplot')
 
 #Use Pandas to populate the data frame
-df = Quandl.get("WIKI/AMZN")
+df = Quandl.get("WIKI/AMZN",api_key='tJbUksb_TeZXtwAgDeia')
 df = df[['Adj. Open',  'Adj. High',  'Adj. Low',  'Adj. Close', 'Adj. Volume']]
 #Calculate percentages
 df['HL_PCT'] = (df['Adj. High'] - df['Adj. Low']) / df['Adj. Low'] * 100.0

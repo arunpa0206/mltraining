@@ -5,7 +5,7 @@ from sklearn.cluster import KMeans
 style.use('ggplot')
 
 #ORIGINAL:
-
+#Sample dataset for clustering
 X = np.array([[1, 2],
               [1.5, 1.8],
               [5, 8],
@@ -16,10 +16,11 @@ X = np.array([[1, 2],
 
 plt.scatter(X[:, 0],X[:, 1], s=150, linewidths = 5, zorder = 10)
 plt.show()
-
+#Find 2 clusters
 clf = KMeans(n_clusters=2)
-clf.fit(X)
+clf.fit(X)#X will be grouped into 2 clusters
 
+#Find cluster centers and assign labels
 centroids = clf.cluster_centers_
 labels = clf.labels_
 

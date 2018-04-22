@@ -20,13 +20,15 @@ iris = load_iris()
 df = pd.DataFrame(iris.data, columns=iris.feature_names)
 
 # View the top 5 rows
-print(df.head())
+#print(df.head())
 
 # Add a new column with the species names, this is what we are going to try to predict
 df['species'] = pd.Categorical.from_codes(iris.target, iris.target_names)
 
 # View the top 5 rows
 print(df.head())
+
+
 
 # Create a new column that for each row, generates a random number between 0 and 1, and
 # if that value is less than or equal to .75, then sets the value of that cell as True
@@ -36,6 +38,8 @@ df['is_train'] = np.random.uniform(0, 1, len(df)) <= .75
 
 # View the top 5 rows
 print(df.head())
+
+
 
 # Create two new dataframes, one with the training rows, one with the test rows
 train, test = df[df['is_train']==True], df[df['is_train']==False]
@@ -89,6 +93,7 @@ test['species'].head()
 # Create confusion matrix
 ct=pd.crosstab(test['species'], preds, rownames=['Actual Species'], colnames=['Predicted Species'])
 print(ct)
-
+'''
 # View a list of the features and their importance scores
 list(zip(train[features], clf.feature_importances_))
+'''

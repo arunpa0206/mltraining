@@ -10,7 +10,7 @@ import pickle
 
 style.use('ggplot')
 
-df = Quandl.get("WIKI/GOOGL")
+df = Quandl.get("WIKI/GOOGL", api_key='tJbUksb_TeZXtwAgDeia')
 df = df[['Adj. Open',  'Adj. High',  'Adj. Low',  'Adj. Close', 'Adj. Volume']]
 df['HL_PCT'] = (df['Adj. High'] - df['Adj. Low']) / df['Adj. Close'] * 100.0
 df['PCT_change'] = (df['Adj. Close'] - df['Adj. Open']) / df['Adj. Open'] * 100.0

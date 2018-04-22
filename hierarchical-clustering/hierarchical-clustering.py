@@ -5,9 +5,9 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 from matplotlib import style
 style.use("ggplot")
-
+#Start with some random clusters
 centers = [[1,1,1],[5,5,5],[3,10,10]]
-
+#Using scikit learn form clusters
 X, _ = make_blobs(n_samples = 100, centers = centers, cluster_std = 1.5)
 
 ms = MeanShift()
@@ -19,6 +19,7 @@ print(cluster_centers)
 n_clusters_ = len(np.unique(labels))
 print("Number of estimated clusters:", n_clusters_)
 
+#Assign clors for plotting
 colors = 10*['r','g','b','c','k','y','m']
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')

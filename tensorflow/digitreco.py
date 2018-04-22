@@ -64,6 +64,7 @@ def train_neural_network(x):
             print('Epoch', epoch, 'completed out of',hm_epochs,'loss:',epoch_loss)
 
         correct = tf.equal(tf.argmax(prediction, 1), tf.argmax(y, 1))
+        
 
         accuracy = tf.reduce_mean(tf.cast(correct, 'float'))
         print('Accuracy:',accuracy.eval({x:mnist.test.images, y:mnist.test.labels}))

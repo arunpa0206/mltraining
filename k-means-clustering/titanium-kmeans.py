@@ -71,4 +71,4 @@ for i in range(len(X)):
     if prediction[0] == y[i]:
         correct += 1
 
-print('Accuracy',correct/len(X))
+print('Accuracy',float(correct)/float(len(X)))
